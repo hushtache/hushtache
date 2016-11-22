@@ -1,0 +1,5 @@
+service: {{service}}
+environment_variables:
+  DB_URL: {{DB_URL}}
+  PORT:   {{PORT}}
+healthcheck: true
