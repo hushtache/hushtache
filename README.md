@@ -1,8 +1,8 @@
 # Hushtache
 
-<img src="//static.hushtache.com/logo.png" />
+![Hushtache Logo](//static.hushtache.com/logo.png)
 
-Config management with built-in encryption that allow developers to store web secrets encrypted in the same repo. Secrets are encrypted using AES that has the key protected using a generated private key of each user.
+Config management with built-in encryption that allow developers to store app secrets encrypted in the same repo. Secrets are encrypted using AES that has the key protected using a generated private key of each user.
 
 Along with simple storing and retrieving secret, the tool allows rendering directing to any templates given. Examples of these might include Google App Engine's app.yaml, where the environment variables are populated from the secret store.
 
@@ -10,12 +10,12 @@ Along with simple storing and retrieving secret, the tool allows rendering direc
 
 To install download the latest build for your platform:
 
-* [https://builds.hushtache.com/20161124/windows64.zip](Windows 64bit)
-* [https://builds.hushtache.com/20161124/windows32.zip](Windows 64bit)
-* [https://builds.hushtache.com/20161124/linux64.zip](Linux 64bit)
-* [https://builds.hushtache.com/20161124/linux32.zip](Linux 64bit)
-* [https://builds.hushtache.com/20161124/darwin64.zip](MacOS 64bit)
-* [https://builds.hushtache.com/20161124/darwin64.zip](MacOS 64bit)
+* [MacOS 64](https://builds.hushtache.com/20161124/darwin64.zip)
+* [MacOS 32](https://builds.hushtache.com/20161124/darwin32.zip)
+* [Linux 64](https://builds.hushtache.com/20161124/linux64.zip)
+* [Linux 32](https://builds.hushtache.com/20161124/linux32.zip)
+* [Windows 64](https://builds.hushtache.com/20161124/windows64.zip)
+* [Windows 32](https://builds.hushtache.com/20161124/windows32.zip)
 
 THe zip will contain the executable that can be used directly or can be added to your global path using:
 
