@@ -1,5 +1,6 @@
 !src/github.com/hushtache/
 pkg/
+builds/
 release/
 .hushtache
 .hushtache.sig

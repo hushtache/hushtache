@@ -18,7 +18,8 @@ func Boot() {
   // check if any given ...
   if len(args) == 0 {
 
-    fmt.Println("NO COMMANDS GIVEN ...")
+    // init dir here
+    commands.Get()
   
   } else {
 
@@ -67,7 +68,7 @@ func Boot() {
 
     }  else {
 
-      fmt.Println("WHAT ... ?")
+      fmt.Println("Unknown command ... Check --help for more details")
 
     }
 

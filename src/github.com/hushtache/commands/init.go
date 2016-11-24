@@ -4,9 +4,13 @@ import(
   "github.com/hushtache/api"
   "github.com/hushtache/constants"
   "fmt"
+  "os/user"
 )
 
 func Init() {
+
+  // current user
+  usr, _ := user.Current()
 
   // check if we are not already configured
   if api.AlreadyConfigured( constants.GetDatabaseFile() ) == true {
@@ -23,6 +27,6 @@ func Init() {
   privateKeyPEM := api.GetCurrentKey()
 
   // generate the local datastore
-  api.Init(privateKeyPEM, "johann")
+  api.Init(privateKeyPEM, usr.Username)
 
 }

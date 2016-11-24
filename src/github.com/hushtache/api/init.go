@@ -51,6 +51,7 @@ func Init(key string, username string) {
   // save to the store
   Save(constants.GetDatabaseFile(), password, storeItems)
 
+  // output to let the user know !
   fmt.Println("hushtache initialized !")
 
 }
