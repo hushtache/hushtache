@@ -4,7 +4,7 @@
 
 Config management with built-in encryption that allow developers to store app secrets encrypted in the same repo. Secrets are encrypted using AES that has the key protected using a generated private key of each user.
 
-Along with simple storing and retrieving secret, the tool allows rendering directing to any templates given. Examples of these might include Google App Engine's app.yaml, where the environment variables are populated from the secret store.
+Along with simple storing and retrieving secret, the tool allows rendering directly to any templates given. Examples of these might include Google App Engine's app.yaml, where the environment variables are populated from the secret store.
 
 ## Install
 
@@ -17,7 +17,7 @@ To install download the latest build for your platform:
 * [Windows 64](https://builds.hushtache.com/20161124/windows64.zip)
 * [Windows 32](https://builds.hushtache.com/20161124/windows32.zip)
 
-THe zip will contain the executable that can be used directly or can be added to your global path using:
+The zip will contain the executable that can be used directly or can be added to your global path using:
 
 ```
 mv hushtache /usr/bin/hushtache
@@ -47,7 +47,7 @@ hushtache set <key> <value>
 
 And all displayed using:
 ```
-# show all keys
+# show all the keys + values
 hushtache get
 
 # show key value
