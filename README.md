@@ -1,6 +1,6 @@
 # Hushtache
 
-![Hushtache Logo](//static.hushtache.com/logo.png)
+![Hushtache Logo](https://static.hushtache.com/logo.png)
 
 Config management with built-in encryption that allow developers to store app secrets encrypted in the same repo. Secrets are encrypted using AES that has the key protected using a generated private key of each user.
 
